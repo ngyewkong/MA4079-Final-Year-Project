@@ -35,6 +35,16 @@ Hence, some linux commands are needed as the whole dataset and training is hoste
 
 This study adopts a 70-30 train-test split, image input shape of 256 by 256. 
 
+The models of choice for this study are U-Net variants.
+
+ 1. U-Net UNetFromScratch.png![image](https://user-images.githubusercontent.com/55376202/117908384-e6505000-b30a-11eb-803d-f9a0daeed963.png)
+
+ 2. U-Net with MobileNetV2 Encoder UNetwithMobileNetV2.png![image](https://user-images.githubusercontent.com/55376202/117908409-f10ae500-b30a-11eb-8750-d6b8f39df52f.png)
+
+ 3. Attention-Guided U-Net Attention_Guided_UNet.png![image](https://user-images.githubusercontent.com/55376202/117908425-f831f300-b30a-11eb-931a-e83285f51e0b.png)
+
+
+
 # Hyperparameters 
   - Batch Size: 2
   - Learning Rate: 0.0003 
@@ -48,4 +58,6 @@ This study adopts a 70-30 train-test split, image input shape of 256 by 256.
   3. Combination Loss (BCE + Dice)
 
 # Results Discussion 
-Due to PDPA agreement: Results containing patients' data and implementation code are not shown
+Due to PDPA agreement: Results containing patients' data and implementation code are not shown.
+
+Out of the 12 models (different setup of the 3 main models), Top 3 models are U-Net with MobileNetV2 encoder.
