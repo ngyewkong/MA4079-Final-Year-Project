@@ -12,17 +12,7 @@ Python Code for U-Net with pretrained MobileNetV2 encoder is inspired by Nikhil 
 
 - Best Model achieved Dice score of 88.19% on training set, 87.9% on test set.
 
-Python Code for Attention-Guided U-Net is derived from 
-
-@inproceedings{noori2019attention,
-  title={Attention-Guided Version of 2D UNet for Automatic Brain Tumor Segmentation},
-  author={Noori, Mehrdad and Bahri, Ali and Mohammadi, Karim},
-  booktitle={2019 9th International Conference on Computer and Knowledge Engineering (ICCKE)},
-  pages={269--275},
-  year={2019},
-  organization={IEEE}
-}
- Link to his github repo: https://github.com/Mehrdad-Noori/Brain-Tumor-Segmentation
+Python Code for Attention-Guided U-Net is adapted from Mehrdad Noori's implementation. Link to his github repo: https://github.com/Mehrdad-Noori/Brain-Tumor-Segmentation
  
  - Best Model achieved Dice Score of 86.02% on training set, 83.71% on test set.
 
@@ -46,10 +36,10 @@ Hence, some linux commands are needed as the whole dataset and training is hoste
 This study adopts a 70-30 train-test split, image input shape of 256 by 256. 
 
 # Hyperparameters 
-Batch Size: 2
-Learning Rate: 0.0003 
-Optimiser: Adam with Nesterov Momentum 
-Epochs: 100
+  - Batch Size: 2
+  - Learning Rate: 0.0003 
+  - Optimiser: Adam with Nesterov Momentum 
+  - Epochs: 100
 
 # Model Training & Evaluation
 3 Loss Functions tested in this study:
