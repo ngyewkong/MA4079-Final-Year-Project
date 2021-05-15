@@ -1,6 +1,8 @@
 # MA4079-Final-Year-Project
 Breast Tumour Segmentation Using Convolutional Neural Network on 3D Computed Tomography (CT) Images
 
+Ng,  Y. K. (2021). Breast tumour segmentation using convolutional neural network on 3D computed tomography images. Final Year Project (FYP), Nanyang Technological University, Singapore. https://hdl.handle.net/10356/149118
+
 Python Code for U-Net is inspired by Dennis Madsen's implementation of 3D Volumetric Segmentation using 2D U-Net. Link to his github repo: https://github.com/madsendennis/notebooks/tree/master/volume_segmentation_with_unet
 
 ![image](https://user-images.githubusercontent.com/55376202/117907443-68d81000-b309-11eb-99fe-a091cb7f7ffc.png)
