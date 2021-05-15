@@ -19,7 +19,7 @@ Python Code for Attention-Guided U-Net is adapted from Mehrdad Noori's implement
  - Best Model achieved Dice Score of 86.02% on training set, 83.71% on test set.
 
 # Data Preparation
-Dataset given are patients' 3D CT volumes under a collaboration with National Cancer Centre Singapore (NCCS). Due to Patients' Personal Data Privacy Agreement (PDPA) Law in Singapore, Dataset is not available to public. Dataset is hosted on a private Nanyang Technological University (NTU) server, with GPU support.
+Dataset given are patients' 3D CT volumes under a collaboration with National Cancer Centre Singapore (NCCS). Due to Personal Data Privacy Agreement (PDPA) with NCCS, Dataset is not available to public. Dataset is hosted on a private Nanyang Technological University (NTU) server, with GPU support.
 
 Dataset consists of 347 patients' volumes in nrrd data format.
 
