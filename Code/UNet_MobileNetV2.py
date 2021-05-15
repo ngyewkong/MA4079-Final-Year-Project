@@ -16,8 +16,8 @@ from tensorflow.keras.metrics import Recall, Precision
 from tensorflow.keras import backend as K
 from tf_notification_callback import TelegramCallback
 
-telegram_callback = TelegramCallback(bot_token='1695094498:AAFfpt-dlsXAtg5KtExj98nqTV8aq5bjNCA', 
-                                    chat_id='-492316955', 
+telegram_callback = TelegramCallback(bot_token='INSERT YOUR OWN TELEGRAM BOT_TOKEN ID', 
+                                    chat_id='INSERT YOUR OWN CHAT ID', 
                                     modelName='Model', 
                                     loss_metrics=['loss', 'val_loss'], 
                                     acc_metrics=['dsc', 'val_dsc'], 
