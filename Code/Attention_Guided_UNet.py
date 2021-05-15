@@ -15,8 +15,8 @@ from tensorflow.keras import Input
 from tensorflow.keras.layers import Conv2D, PReLU, UpSampling2D, concatenate , Reshape, Dense, Permute, MaxPool2D
 from tensorflow.keras.layers import GlobalAveragePooling2D, Activation, add, GaussianNoise, BatchNormalization, multiply
 
-telegram_callback = TelegramCallback(bot_token='1695094498:AAFfpt-dlsXAtg5KtExj98nqTV8aq5bjNCA', 
-                                    chat_id='-492316955', 
+telegram_callback = TelegramCallback(bot_token= 'INSERT YOUR OWN TELEGRAM BOT_TOKEN ID', 
+                                    chat_id='INSERT YOUR OWN CHAT ID', 
                                     modelName='Model', 
                                     loss_metrics=['loss', 'val_loss'], 
                                     acc_metrics=['dsc', 'val_dsc'], 
