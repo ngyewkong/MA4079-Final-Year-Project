@@ -60,6 +60,6 @@ The models of choice for this study are U-Net variants.
   3. Combination Loss (BCE + Dice)
 
 # Results Discussion 
-Due to PDPA agreement: Results containing patients' data and implementation code are not shown.
+Due to PDPA agreement: Results containing patients' data and implementation code (showing the predictions) are not shown.
 
 Out of the 12 models (different setup of the 3 main models), Top 3 models are U-Net with MobileNetV2 encoder.
