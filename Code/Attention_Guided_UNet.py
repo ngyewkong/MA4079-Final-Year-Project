@@ -299,8 +299,8 @@ callbacks = [
 ]
 
 import requests
-access_token = '1695094498:AAFfpt-dlsXAtg5KtExj98nqTV8aq5bjNCA'
-chat_id = '-492316955'
+access_token = 'INSERT YOUR OWN ACCESS TOKEN'
+chat_id = 'INSERT YOUR OWN CHAT ID'
 
 def telegram_bot_sendtext(bot_message):
     bot_token = access_token
